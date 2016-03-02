@@ -36,7 +36,7 @@ $GARCON = (10*$SUBTOTAL)/100 ;
 
 $TOTAL = $SUBTOTAL+$GARCON ;
 
-
+// Mostra a conta
 print  "\nValor da conta:" ;
 print "\nR$ " . number_format($ENTRADA, 2,',','.') . "(Valor da entrada)" ;
 print "\nR$ " . number_format($CONSUMO, 2,',','.') . "(Consumo)" ;
