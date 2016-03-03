@@ -38,12 +38,12 @@ $TOTAL = $SUBTOTAL+$GARCON ;
 
 // Mostra a conta
 print  "\nValor da conta:" ;
-print "\nR$ " . number_format($ENTRADA, 2,',','.') . "(Valor da entrada)" ;
-print "\nR$ " . number_format($CONSUMO, 2,',','.') . "(Consumo)" ;
-print "\nR$ " . number_format($COVERT, 2,',','.') . "(Couvert artistico)" ;
-print "\nR$ " . number_format($SUBTOTAL, 2,',','.') . "(Subtotal SEM 10% )" ;
+print "\nR$ " . number_format($ENTRADA, 2,',','.') . " (Valor da entrada)" ;
+print "\nR$ " . number_format($CONSUMO, 2,',','.') . " (Consumo)" ;
+print "\nR$ " . number_format($COVERT, 2,',','.') . " (Couvert artistico)" ;
+print "\nR$ " . number_format($SUBTOTAL, 2,',','.') . " (Subtotal SEM 10%)" ;
 print "\n___________________________________________" ;
-print "\nR$ " . number_format($TOTAL, 2,',','.') . "(Total )" ;
+print "\nR$ " . number_format($TOTAL, 2,',','.') . " (Total)" ;
 
 
 		
