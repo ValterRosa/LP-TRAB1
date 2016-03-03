@@ -11,6 +11,8 @@ $SM = trim(fgets(STDIN)) ;
 print "Serviços educacionais:" ;
 $SE = trim(fgets(STDIN)) ;
 
+print "\n______________________________________________________________" ;
+
 //calcula impostos
 $IRBANC = (20*$RBanc)/100 ;
 
@@ -56,3 +58,18 @@ print "\nR$" .  number_format($IB, 2,',','.') . " (valor bruto)" ;
 print "\n______________________________________________________________" ;
 
 print "\nMaximo a ser abatido: R$" .  number_format($MABAT, 2,',','.') . " .";
+
+print "\n______________________________________________________________" ;
+
+print "\nTotal de valores possiveis de abater:" ;
+print "\nR$" . number_format($SM, 2,',','.') . " (serviços medicos)" ;
+print "\nR$" . number_format($SE, 2,',','.') . " (serviços educacionais)" ;
+print "\nR$" . number_format($SOMABAT, 2,',','.') . " (total)" ;
+
+print "\n______________________________________________________________" ;
+
+print "\nImposto total:" ;
+print "\nR$" .  number_format($IB, 2,',','.') . " (imposto bruto)" ;
+print "\nR$" .  number_format($VABATIDO, 2,',','.') . " (abatimentos)" ;
+print "\nR$" .  number_format($IAPAGAR, 2,',','.') . " (total a pagar)" ;
+
